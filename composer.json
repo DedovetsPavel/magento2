@@ -333,6 +333,13 @@
         "gene/bluefoot": "*"
     },
     "extra": {
+        "magento-force": "override",
+        "magento-deploy-ignore": {
+            "*": [
+                "/.editorconfig",
+                "/.gitignore"
+            ]
+        },
         "component_paths": {
             "trentrichardson/jquery-timepicker-addon": "lib/web/jquery/jquery-ui-timepicker-addon.js",
             "components/jquery": [
